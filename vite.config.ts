@@ -10,6 +10,15 @@ export default defineConfig({
     vue(),
     vueJsx(),
   ],
+  server:{
+    // 端口号
+    port: 8888,
+    // 自动打开
+    open:true,
+    // 主机名
+    host:"localhost",
+    // 跨域
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
