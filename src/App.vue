@@ -1,17 +1,42 @@
 <script setup lang="ts">
-import {  RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+// import { h } from 'vue'
+
+// import SvgIcon from './components/SvgIcon.vue'
+
+// const vnode = h('div', { class: "test" }, ["hello", h('span', "456")])
 </script>
 
 <template>
 
-  <div>hello</div>
+  <SvgIcon icon="Edit" :size="40" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <vnode />
+
+
+
+
+
+
   <RouterView />
+
+
+
 </template>
 
-<style scoped>
-div{
-  width: 400px;
-  height: 400px;
-  background-color: aqua;
-}
-</style>
+<style scoped></style>
